@@ -9,21 +9,21 @@ Ensure Python is installed on your system.
 
 ### 1. Install Dependencies
 ```bash
-python -m pip install -r requirements.txt
+py -m pip install -r requirements.txt
 ```
 
 ### 2. Download Data & Train Models
 You can easily execute the pipeline using `run_all.bat` (Windows) or `run_all.ps1` (PowerShell). Alternatively, do it manually:
 ```bash
-python data/download_data.py
-python src/recommender.py
-python src/sentiment.py
-python src/engagement.py
+py data/download_data.py
+py src/recommender.py
+py src/sentiment.py
+py src/engagement.py
 ```
 
 ### 3. Run the Streamlit Application
 ```bash
-python -m streamlit run app.py
+py -m streamlit run app.py
 ```
 
 ## Features
